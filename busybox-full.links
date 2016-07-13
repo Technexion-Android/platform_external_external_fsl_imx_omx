@@ -236,3 +236,5 @@
 /bin/xzcat
 /bin/yes
 /bin/zcat
+/bin/getty
+/bin/login

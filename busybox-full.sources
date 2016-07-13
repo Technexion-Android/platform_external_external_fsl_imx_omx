@@ -47,7 +47,7 @@ libbb/time.c libbb/trim.c libbb/u_signal_names.c libbb/udp_io.c libbb/unicode.c 
 libbb/vdprintf.c libbb/verror_msg.c libbb/vfork_daemon_rexec.c libbb/warn_ignoring_args.c libbb/wfopen.c libbb/wfopen_input.c
 libbb/write.c libbb/xatonum.c libbb/xconnect.c libbb/xfunc_die.c libbb/xfuncs.c libbb/xfuncs_printf.c
 libbb/xgetcwd.c libbb/xgethostbyname.c libbb/xreadlink.c libbb/xrealloc_vector.c libbb/xregcomp.c
-libbb/endofname.c libbb/in_ether.c libbb/nuke_str.c
+libbb/endofname.c libbb/in_ether.c libbb/nuke_str.c libbb/correct_password.c libbb/pw_encrypt.c libbb/update_passwd.c
 
 libpwdgrp/uidgid_get.c
 
@@ -84,4 +84,4 @@ util-linux/swaponoff.c util-linux/switch_root.c util-linux/umount.c
 util-linux/volume_id/get_devname.c util-linux/volume_id/volume_id.c util-linux/volume_id/util.c util-linux/volume_id/ext.c
 util-linux/volume_id/fat.c util-linux/volume_id/iso9660.c util-linux/volume_id/ntfs.c util-linux/volume_id/linux_swap.c
 util-linux/volume_id/exfat.c util-linux/volume_id/squashfs.c util-linux/volume_id/f2fs.c
-
+loginutils/getty.c loginutils/login.c loginutils/su.c loginutils/passwd.c loginutils/chpasswd.c loginutils/cryptpw.c

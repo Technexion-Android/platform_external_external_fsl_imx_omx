@@ -560,7 +560,7 @@ int getty_main(int argc UNUSED_PARAM, char **argv)
 			//	" sid %d pgid %d",
 			//	pid, getppid(),
 			//	getsid(0), getpgid(0));
-			bb_perror_msg_and_die("setsid");
+			bb_perror_msg_and_die("setsid fails: pid %d ppid %d sid %d", pid, getppid(), getsid(0));
 		}
 		/* Looks like we are already a session leader.
 		 * In this case (setsid failed) we may still have ctty,
